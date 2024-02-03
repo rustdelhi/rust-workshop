@@ -114,4 +114,16 @@ marp: true
 # Github
 
 - A platform for developers to create, store, manage and share their code
+
 - We can use git to interact with repos stored in Github
+
+
+---
+
+- Repositories view
+    ![](github1.png)
+
+---
+
+- Cloning a repo
+    ![](github_clone.png)
