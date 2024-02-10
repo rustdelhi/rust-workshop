@@ -97,6 +97,33 @@ fn main() {
 
 ---
 
+# Numeric operators
+
+```
+fn main() {
+    // addition
+    let sum = 5 + 10; //15
+    println!("sum: {}", sum);
+    
+    // subtraction
+    let difference = 5 - 4; // 1
+    println!("difference: {}", difference);
+
+    // multiplication
+    let product = 4 * 4; //16
+    println!("product: {}", product);
+    
+    // division
+    let quotient = 5 / 3;
+    println!("quotient: {}", quotient);
+    
+    // remainder
+    let remainder = 5 % 3; //2
+    println!("remainder: {}", remainder);
+}
+```
+---
+
 # f32 Example
 
 ```
@@ -142,3 +169,13 @@ fn main() {
 	println!("Size of char value {} is {} bytes", symbol, std::mem::size_of_val(&symbol));
 }
 ```
+
+---
+
+# usize and isize
+
+- The pointer sized types. 
+- The size of this primitive is how many bytes it takes to reference any location in memory.
+- For example, on a 32 bit target, this is 4 bytes
+- On a 64 bit target, this is 8 bytes
+- This allows integers to be flexible with target architecture (rather than just the compiling machine)
