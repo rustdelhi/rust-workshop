@@ -2,6 +2,8 @@
 marp: true
 ---
 
+# Struct
+
 - Structs allow us to group data
 
 ```
@@ -30,6 +32,8 @@ user1.sign_in_count = 2;
 ```
 - A `struct` instance is created using `{` `}` after the name of the `struct`
 - To access a `struct` `field` we use the `dot` notation
+
+---
 
 # Creating instance from another instance
 
