@@ -26,6 +26,12 @@ marp: true
 
 ---
 
+# Exercise 3
+
+- A Program which loops over an array and prints only even numbers
+
+---
+
 # Solution 1
 
 ```
