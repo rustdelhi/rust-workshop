@@ -36,7 +36,7 @@ marp: true
 
  # HashMap Example
 
- ```
+ ```rust
  use std::collections::HashMap;
 
 fn main(){
